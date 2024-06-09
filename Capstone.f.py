@@ -2,10 +2,10 @@ import streamlit as st
 import pickle
 
 
-products = pickle.load(open(r"C:\Users\kelvin leung\Desktop\product_list.f.pkl", 'rb'))
-similarity = pickle.load(open(r"C:\Users\kelvin leung\Desktop\similarity.f.pkl", 'rb'))
-photos = pickle.load(open(r"C:\Users\kelvin leung\Desktop\url.f.pkl", 'rb'))
-product_price = pickle.load(open(r"C:\Users\kelvin leung\Desktop\price.p.pkl", 'rb'))
+products = pickle.load(open("product_list.f.pkl", 'rb'))
+similarity = pickle.load(open("similarity.f.pkl", 'rb'))
+photos = pickle.load(open("url.f.pkl", 'rb'))
+product_price = pickle.load(open("price.p.pkl", 'rb'))
 
 
 st.header("Product Recommendation System")
